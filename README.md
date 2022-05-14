@@ -1,8 +1,14 @@
 # scrapy
 Web Scraping and crawling with scrapy
+# scraping wikipedia title pages
+
+![deom_scraping_gif](https://user-images.githubusercontent.com/76658396/168424063-6069a8e9-5638-4bd2-9913-a1a2c63df714.gif)
+
+
 # simple news scarpper
 
 ```python
+
 class SecondSpider(Spider):
     name = 'second'
     start_urls = ['https://www.thenews.com.pk/']
